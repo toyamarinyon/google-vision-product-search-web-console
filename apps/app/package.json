@@ -1,0 +1,31 @@
+{
+  "name": "@google-vision-product-search-web-console/app",
+  "version": "1.0.0",
+  "description": "Cloudflare worker TypeScript template",
+  "main": "dist/worker.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "@toyamarinyon",
+  "license": "MIT",
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "typescript",
+      "prettier"
+    ]
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^3.7.1",
+    "@types/service-worker-mock": "^2.0.1",
+    "prettier": "^2.3.0",
+    "service-worker-mock": "^2.0.5",
+    "ts-loader": "^9.2.2",
+    "typescript": "^4.3.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  },
+  "dependencies": {
+    "wrangler": "^0.0.27"
+  }
+}
